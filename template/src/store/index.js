@@ -1,8 +1,12 @@
 import app from './module/app.js'
 import user from './module/user.js'
 import getters from './getters'
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-const store =  new Store({
+Vue.use(Vuex)
+
+const store = new Vuex.Store({
   module: {
     app,
     user
