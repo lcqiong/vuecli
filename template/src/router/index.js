@@ -4,7 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -13,3 +14,13 @@ export default new Router({
     }
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  //跳转前的操作
+})
+
+router.afterEach((to, from) => {
+  //跳转完成之后的跳转操作
+})
+
+export default router

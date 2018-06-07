@@ -27,7 +27,9 @@
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}}{{#vuex}},
-    "vuex": "^3.0.1"{{/vuex}}
+    "vuex": "^3.0.1"{{/vuex}},
+    "axios": "^0.18.0",
+    "fastclick": "^1.0.6"
   },
   "devDependencies": {
     {{#lint}}

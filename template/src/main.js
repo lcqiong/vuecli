@@ -12,8 +12,14 @@ import Vuex from 'vuex'
 import store from './store/index.js'
 Vue.use(Vuex)
 {{/vuex}}
+import fastclick from 'fastclick'
+import axios from 'axios'
 
 Vue.config.productionTip = false
+
+Vue.prototype.$axios = axios
+
+fastclick.attach(document.body)
 
 /* eslint-disable no-new */
 new Vue({
