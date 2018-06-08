@@ -7,3 +7,4 @@ module.exports = merge(prodEnv, {
   // 测试线
   BASE_URL: '"http://localhost:5050"'
 })
+ 
