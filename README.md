@@ -57,7 +57,7 @@ The development server will run on port 8080 by default. If that port is already
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
 
-### Fork It And Make Your Own
+### Fork It And Make Your Own 自定义模板（请看这里）
 
 You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
 
