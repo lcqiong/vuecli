@@ -17,7 +17,7 @@ import axios from 'axios'
 
 Vue.config.productionTip = false
 
-Vue.prototype.$axios = axios
+Object.defineProperty(Vue.prototype, '$axios', { value: axios })
 
 fastclick.attach(document.body)
 
