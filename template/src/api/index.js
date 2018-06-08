@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const $axios = axios.create({
   // baseURL: process.env.BASEURL,
-  baseURL: process.env.BASEURL,
+  baseURL: process.env.BASE_URL,
   Timeout: 30000,
   headers: {
     'Content-Type': 'application/json; charset=utf-8'
