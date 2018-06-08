@@ -17,6 +17,7 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
   //跳转前的操作
+  next()
 })
 
 router.afterEach((to, from) => {
