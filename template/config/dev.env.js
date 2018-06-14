@@ -4,7 +4,7 @@ const prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  // 测试线
+  // 开发线
   BASE_URL: '"http://localhost:5050"'
 })
  

@@ -22,12 +22,10 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<style lang="stylus" scoped>
+#app
+  text-align: center
+  min-height: 100vh
+  .logo
+    margin-top: 200px
 </style>

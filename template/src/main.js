@@ -21,6 +21,12 @@ Object.defineProperty(Vue.prototype, '$axios', { value: axios })
 
 fastclick.attach(document.body)
 
+// 关闭生产环境调试信息
+const isDebug_mode = process.env.NODE_ENV !== 'production'
+Vue.config.debug = isDebug_mode
+Vue.config.devtools = isDebug_mode
+Vue.config.productionTip = isDebug_mode
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
